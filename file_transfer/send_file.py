@@ -11,7 +11,7 @@ def send_file(filename: str = "mytext.txt", testing: bool = False) -> None:
 
     while True:
         conn, addr = sock.accept()  # Establish connection with client.
-        print(f"Got connection from {addr}")
+        print(f"Got connection from:  {addr}")
         data = conn.recv(1024)
         print(f"Server received: {data = }")
 
