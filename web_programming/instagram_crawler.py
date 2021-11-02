@@ -114,7 +114,7 @@ def test_instagram_user(username: str = "github") -> None:
         return
     assert instagram_user.fullname == "GitHub"
     assert instagram_user.biography == "Built for developers."
-    assert instagram_user.number_of_posts > 150
+    assert instagram_user.number_of_posts > 250
     assert instagram_user.number_of_followers > 120000
     assert instagram_user.number_of_followings > 15
     assert instagram_user.email == "support@github.com"
