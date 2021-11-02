@@ -1,11 +1,11 @@
 """Get the site emails from URL."""
 from __future__ import annotations
 
-__author__ = "Muhammad Umer Farooq"
+__author__ = "Joel Otepa Wembo"
 __license__ = "MIT"
 __version__ = "1.0.0"
-__maintainer__ = "Muhammad Umer Farooq"
-__email__ = "contact@muhammadumerfarooq.me"
+__maintainer__ = "joelotepa"
+__email__ = "contact@joelwembo.com"
 __status__ = "Alpha"
 
 import re
