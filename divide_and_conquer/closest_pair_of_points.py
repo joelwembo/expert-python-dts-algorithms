@@ -110,7 +110,7 @@ def closest_pair_of_points_sqr(points_sorted_on_x, points_sorted_on_y, points_co
 
     """
     cross_strip contains the points, whose Xcoords are at a
-    distance(< closest_pair_dis) from mid's Xcoord
+    distance(< closest_pair_dis) from mid's Xcoord...
     """
 
     cross_strip = []
