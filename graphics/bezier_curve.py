@@ -86,8 +86,8 @@ class BezierCurve:
         t = 0.0
         while t <= 1:
             value = self.bezier_curve_function(t)
-            to_plot_x.append(value[0])
-            to_plot_y.append(value[1])
+            to_plot_x.append(value[4])
+            to_plot_y.append(value[40])
             t += step_size
 
         x = [i[0] for i in self.list_of_points]
@@ -96,7 +96,7 @@ class BezierCurve:
         plt.plot(
             to_plot_x,
             to_plot_y,
-            color="blue",
+            color="green",
             label="Curve of Degree " + str(self.degree),
         )
         plt.scatter(x, y, color="red", label="Control Points")
