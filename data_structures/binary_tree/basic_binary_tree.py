@@ -1,6 +1,4 @@
 from __future__ import annotations
-
-
 class Node:
     """
     A Node has data variable and pointers to Nodes to its left and right.
