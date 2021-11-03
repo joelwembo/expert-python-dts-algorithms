@@ -1,10 +1,21 @@
 # https://www.interviewbit.com/python-interview-questions/
 
-import array
-a = array.array('i', [1, 2, 3])
-for i in a:
-    print(i, end=' ')    #OUTPUT: 1 2 3
-a = array.array('i', [1, 2, 'string'])    #OUTPUT: TypeError: an integer is required (got type str)
-a = [1, 2, 'string']
-for i in a:
-   print(i, end=' ')    #OUTPUT: 1 2 string
+# decorator function to convert to lowercase
+def lowercase_decorator(function):
+   def wrapper():
+       func = function()
+       string_lowercase = func.lower()
+       return string_lowercase
+   return wrapper
+# decorator function for split words
+def splitter_decorator(function):
+   def wrapper():
+       func = function()
+       string_split = func.split()
+       return string_split
+   return wrapper
+@splitter_decorator # this is executed next
+@lowercase_decorator # this is executed first
+def hello():
+   return 'Hello World'
+hello()   # output => [ 'hello' , 'world' ]
