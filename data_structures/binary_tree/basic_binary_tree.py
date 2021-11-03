@@ -13,7 +13,7 @@ class Node:
 def display(tree: Node | None) -> None:  # In Order traversal of the tree
     """
     >>> root = Node(1)
-    >>> root.left = Node(0)
+    >>> root.left = Node(0) # test
     >>> root.right = Node(2)
     >>> display(root)
     0

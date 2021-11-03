@@ -1,6 +1,6 @@
 # https://www.interviewbit.com/python-interview-questions/
 
-# decorator function to convert to lowercase:
+# decorator function to convert to lowercase:..
 def lowercase_decorator(function):
    def wrapper():
        func = function()
