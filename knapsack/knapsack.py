@@ -7,7 +7,7 @@ from __future__ import annotations
 def knapsack(capacity: int, weights: list[int], values: list[int], counter: int) -> int:
     """
     Returns the maximum value that can be put in a knapsack of a capacity cap,
-    whereby each weight w has a specific value val.
+    whereby each weight w has a specific value val...
 
     >>> cap = 50
     >>> val = [60, 100, 120]
