@@ -4,7 +4,7 @@ class Node:
     A Node has data variable and pointers to Nodes to its left and right.
     Data Driven
     """
-
+    # required init
     def __init__(self, data: int) -> None:
         self.data = data
         self.left: Node | None = None
