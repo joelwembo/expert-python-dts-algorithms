@@ -1,3 +1,7 @@
+
+# In computer science, a binary tree is a tree data structure in which each node has at most two children, 
+# which are referred to as the left child and the right child. ... It is also possible to interpret a binary
+#  tree as an undirected, rather than a directed graph, in which case a binary tree is an ordered, rooted tree.
 from __future__ import annotations
 class Node:
     """
@@ -85,10 +89,10 @@ def main() -> None:  # Main function for testing.
     tree.right = Node(3)
     tree.left.left = Node(4)
     tree.left.right = Node(5)
-    tree.left.right.left = Node(6)
+    tree.left.right.left = Node(10)
     tree.right.left = Node(7)
     tree.right.left.left = Node(8)
-    tree.right.left.left.right = Node(9)
+    tree.right.left.left.right = Node(12)
 
     print(is_full_binary_tree(tree))
     print(depth_of_tree(tree))
