@@ -2,7 +2,7 @@
 Python implementation of a sort algorithm.
 Best Case Scenario : O(n)
 Worst Case Scenario : O(n^2) because native Python functions:min, max and remove are
-already O(n)
+already O(n). 
 """
 
 

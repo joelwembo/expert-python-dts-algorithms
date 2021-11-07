@@ -1,6 +1,6 @@
 
 git add .
-git commit -m "Data Structure update 04/11/2021"
+git commit -m "Data Structure update 07/11/2021"
 if [ -n "$(git status - porcelain)" ];
 then
  echo "IT IS CLEAN"
