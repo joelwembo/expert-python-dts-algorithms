@@ -1,7 +1,6 @@
-echo "Enter your message"
-read message
+
 git add .
-git commit -m"${message}"
+git commit -m "Data Structure update 04/11/2021"
 if [ -n "$(git status - porcelain)" ];
 then
  echo "IT IS CLEAN"

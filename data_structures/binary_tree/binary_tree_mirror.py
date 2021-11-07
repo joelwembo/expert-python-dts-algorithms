@@ -3,7 +3,6 @@ Problem Description:
 Given a binary tree, return it's mirror.
 """
 
-
 def binary_tree_mirror_dict(binary_tree_mirror_dictionary: dict, root: int):
     if not root or root not in binary_tree_mirror_dictionary:
         return
