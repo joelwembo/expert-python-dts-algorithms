@@ -1,5 +1,5 @@
 """
-Picks the random index as the pivot
+Picks the random index as the pivot ...
 """
 import random
 

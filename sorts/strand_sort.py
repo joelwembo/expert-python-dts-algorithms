@@ -6,7 +6,7 @@ def strand_sort(arr: list, reverse: bool = False, solution: list = None) -> list
     Strand sort implementation
     source: https://en.wikipedia.org/wiki/Strand_sort
 
-    :param arr: Unordered input list
+    :param arr: Unordered input lists
     :param reverse: Descent ordering flag
     :param solution: Ordered items container
 

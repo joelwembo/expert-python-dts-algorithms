@@ -6,8 +6,9 @@ You can perform the following operation on some string, :
    (i.e., make them uppercase).
 2. Delete all of the remaining lowercase letters in .
 
-Example:
-a=daBcd and b="ABC"
+Example:   
+
+a=daBcd and b="ABC" ...
 daBcd -> capitalize a and c(dABCd) -> remove d (ABC)
 """
 
