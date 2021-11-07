@@ -1,10 +1,7 @@
 # https://en.wikipedia.org/wiki/Charge_carrier_density
 # https://www.pveducation.org/pvcdrom/pn-junctions/equilibrium-carrier-concentration
-# http://www.ece.utep.edu/courses/ee3329/ee3329/Studyguide/ToC/Fundamentals/Carriers/concentrations.html
 
 from __future__ import annotations
-
-
 def carrier_concentration(
     electron_conc: float,
     hole_conc: float,
