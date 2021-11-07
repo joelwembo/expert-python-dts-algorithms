@@ -1,6 +1,6 @@
 """
 Implementation of iterative merge sort in Python
-Author: Aman Gupta
+Author: Aman Gupta...
 
 For doctests run following command:
 python3 -m doctest -v iterative_merge_sort.py

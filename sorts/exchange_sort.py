@@ -1,6 +1,6 @@
 def exchange_sort(numbers: list[int]) -> list[int]:
     """
-    Uses exchange sort to sort a list of numbers.
+    Uses exchange sort to sort a list of numbers...
     Source: https://en.wikipedia.org/wiki/Sorting_algorithm#Exchange_sort
     >>> exchange_sort([5, 4, 3, 2, 1])
     [1, 2, 3, 4, 5]
