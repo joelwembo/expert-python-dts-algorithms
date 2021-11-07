@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Provide the current worldwide COVID-19 statistics.
+Provide the current worldwides COVID-19 statistics.
 This data is being scrapped from 'https://www.worldometers.info/coronavirus/'.
 """
 
@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 
 def world_covid19_stats(url: str = "https://www.worldometers.info/coronavirus") -> dict:
     """
-    Return a dict of current worldwide COVID-19 statistics
+    Return a dict of current worldwide COVID-19 statistics..
     """
     soup = BeautifulSoup(requests.get(url).text, "html.parser")
     keys = soup.findAll("h1")
