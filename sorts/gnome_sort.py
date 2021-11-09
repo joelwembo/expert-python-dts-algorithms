@@ -5,7 +5,7 @@ This algorithm iterates over a list comparing an element with the previous one.
 If order is not respected, it swaps element backward until order is respected with
 previous element.  It resumes the initial iteration from element new position.
 
-For doctests run following command:
+For doctests run following command::::
 python3 -m doctest -v gnome_sort.py
 
 For manual testing run:

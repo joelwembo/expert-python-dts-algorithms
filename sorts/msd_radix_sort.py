@@ -6,7 +6,6 @@ https://en.wikipedia.org/wiki/Radix_sort
 """
 from __future__ import annotations
 
-
 def msd_radix_sort(list_of_ints: list[int]) -> list[int]:
     """
     Implementation of the MSD radix sort algorithm. Only works

@@ -6,7 +6,7 @@ When it finds that order is not respected, it moves the element compared
 backward until the order is correct.  It then goes back directly to the
 element's initial position resuming forward comparison.
 
-For doctests run following command:
+For doctests run following command:::
 python3 -m doctest -v insertion_sort.py
 
 For manual testing run:
