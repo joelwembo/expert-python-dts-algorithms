@@ -13,8 +13,8 @@ def pigeonhole_sort(a):
     """
     # size of range of values in the list (ie, number of pigeonholes we need)
 
-    min_val = min(a)  # min() finds the minimum value
-    max_val = max(a)  # max() finds the maximum value
+    min_val = min(a)  # min() finds the minimum value.
+    max_val = max(a)  # max() finds the maximum value.
 
     size = max_val - min_val + 1  # size is difference of max and min values plus one
 
@@ -36,7 +36,7 @@ def pigeonhole_sort(a):
 
 
 def main():
-    a = [8, 3, 2, 7, 4, 6, 8, 10, 12, 14, 16 , 18, 20, 21, 22, 40, 42, 48]
+    a = [8, 3, 2, 7, 4, 6, 8, 10, 12, 14, 16 , 18, 20, 21, 22, 40, 42, 48, 50]
     pigeonhole_sort(a)
     print("Sorted order is:", " ".join(a))
 
