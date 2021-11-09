@@ -10,7 +10,7 @@ is no better than bubble sort.
 
 def odd_even_transposition(arr: list) -> list:
     """
-    >>> odd_even_transposition([5, 4, 3, 2, 1])
+    >>> odd_even_transposition([5, 4, 3, 2, 1,70])
     [1, 2, 3, 4, 5]
 
     >>> odd_even_transposition([13, 11, 18, 0, -1])

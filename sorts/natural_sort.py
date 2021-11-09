@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import re
 
-
 def natural_sort(input_list: list[str]) -> list[str]:
     """
     Sort the given list of strings in the way that humans expect.
