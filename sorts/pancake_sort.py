@@ -2,7 +2,8 @@
 This is a pure Python implementation of the pancake sort algorithm
 For doctests run following command:
 python3 -m doctest -v pancake_sort.py
-or
+
+
 python -m doctest -v pancake_sort.py
 For manual testing run:
 python pancake_sort.py
@@ -18,12 +19,12 @@ def pancake_sort(arr):
     [0, 2, 2, 3, 5]
     >>> pancake_sort([])
     []
-    >>> pancake_sort([-2, -5, -45])
+    >>> pancake_sort([-2, -5, -100])
     [-45, -5, -2]
     """
     cur = len(arr)
     while cur > 1:
-        # Find the maximum number in arr
+        # Find the maximum number in array (arr)
         mi = arr.index(max(arr[0:cur]))
         # Reverse from 0 to mi
         arr = arr[mi::-1] + arr[mi + 1 : len(arr)]
