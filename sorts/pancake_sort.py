@@ -3,19 +3,17 @@ This is a pure Python implementation of the pancake sort algorithm
 For doctests run following command:
 python3 -m doctest -v pancake_sort.py
 
-
 python -m doctest -v pancake_sort.py
 For manual testing run:
 python pancake_sort.py
 """
-
 
 def pancake_sort(arr):
     """Sort Array with Pancake Sort.
     :param arr: Collection containing comparable items
     :return: Collection ordered in ascending order of items
     Examples:
-    >>> pancake_sort([0, 5, 3, 2, 2])
+    >>> pancake_sort([0, 5, 3, 2, 2,78,100])
     [0, 2, 2, 3, 5]
     >>> pancake_sort([])
     []

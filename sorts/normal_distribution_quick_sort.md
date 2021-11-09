@@ -18,7 +18,7 @@ The array elements are taken from a Standard Normal Distribution , having mean =
 >>> mu, sigma = 0, 1 # mean and standard deviation
 >>> X = np.random.normal(mu, sigma, p)
 >>> np.save(outfile, X)
->>> print('The array is')
+>>> print('The array is ')
 >>> print(X)
 
 ```
