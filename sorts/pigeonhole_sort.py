@@ -36,7 +36,7 @@ def pigeonhole_sort(a):
 
 
 def main():
-    a = [8, 3, 2, 7, 4, 6, 8, 10, 12, 14, 16 , 18, 20, 21, 22, 40, 42]
+    a = [8, 3, 2, 7, 4, 6, 8, 10, 12, 14, 16 , 18, 20, 21, 22, 40, 42, 48]
     pigeonhole_sort(a)
     print("Sorted order is:", " ".join(a))
 
