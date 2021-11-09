@@ -17,7 +17,7 @@ def pigeon_sort(array: list[int]) -> list[int]:
     Implementation of pigeon hole sort algorithm
     :param array: Collection of comparable items
     :return: Collection sorted in ascending order
-    >>> pigeon_sort([0, 5, 3, 2, 2])
+    >>> pigeon_sort([0, 5, 3, 2, 2,20])
     [0, 2, 2, 3, 5]
     >>> pigeon_sort([])
     []

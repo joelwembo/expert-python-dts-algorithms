@@ -4,7 +4,7 @@ Source: https://en.wikipedia.org/wiki/Odd%E2%80%93even_sort
 This is a non-parallelized implementation of odd-even transposition sort.
 
 Normally the swaps in each set happen simultaneously, without that the algorithm
-is no better than bubble sort.
+is no better than bubble sort....
 """
 
 
