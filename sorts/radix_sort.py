@@ -4,7 +4,7 @@ For doctests run following command:
 python -m doctest -v radix_sort.py
 or
 python3 -m doctest -v radix_sort.py
-For manual testing run:
+For manual testing run::
 python radix_sort.py
 """
 from __future__ import annotations
@@ -13,7 +13,7 @@ from __future__ import annotations
 def radix_sort(list_of_ints: list[int]) -> list[int]:
     """
     Examples:
-    >>> radix_sort([0, 5, 3, 2, 2])
+    >>> radix_sort([0, 5, 3, 45, 2, 2])
     [0, 2, 2, 3, 5]
 
     >>> radix_sort(list(range(15))) == sorted(range(15))
