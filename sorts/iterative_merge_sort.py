@@ -17,7 +17,12 @@ def merge(input_list: list, low: int, mid: int, high: int) -> list:
     sorting left-half and right-half individually
     then merging them into result
     """
-    
+    result = []
+    left, right = input_list[low:mid], input_list[mid : high + 1]
+    while left and right:
+        result.append((left if left[0] <= right[0] else right).pop(0))
+    input_list[low : high + 1] = result + left + right
+    return input_list
 
 
 # iteration over the unsorted list
@@ -35,7 +40,11 @@ def iter_merge_sort(input_list: list) -> list:
     [-9, -4, -2, -1]
     >>> iter_merge_sort([1.1, 1, 0.0, -1, -1.1])
     [-1.1, -1, 0.0, 1, 1.1]
-  
+    >>> iter_merge_sort(['c', 'b', 'a'])
+    ['a', 'b', 'c']
+    >>> iter_merge_sort('cba')
+    ['a', 'b', 'c']
+    """
     if len(input_list) <= 1:
         return input_list
     input_list = list(input_list)
