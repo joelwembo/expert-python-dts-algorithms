@@ -1,7 +1,7 @@
 """
 Python implementation of the MSD radix sort algorithm.
 It used the binary representation of the integers to sort
-them.
+them...
 https://en.wikipedia.org/wiki/Radix_sort
 """
 from __future__ import annotations
@@ -13,7 +13,7 @@ def msd_radix_sort(list_of_ints: list[int]) -> list[int]:
     with positive integers
     :param list_of_ints: A list of integers
     :return: Returns the sorted list
-    >>> msd_radix_sort([40, 12, 1, 100, 4])
+    >>> msd_radix_sort([40, 12, 1, 100, 4,87])
     [1, 4, 12, 40, 100]
     >>> msd_radix_sort([])
     []
@@ -46,7 +46,7 @@ def _msd_radix_sort(list_of_ints: list[int], bit_position: int) -> list[int]:
     :return: Returns a partially sorted list
     >>> _msd_radix_sort([45, 2, 32], 1)
     [2, 32, 45]
-    >>> _msd_radix_sort([10, 4, 12], 2)
+    >>> _msd_radix_sort([10, 4, 12,45,98,96,110], 2)
     [4, 12, 10]
     """
     if bit_position == 0 or len(list_of_ints) in [0, 1]:
