@@ -36,7 +36,7 @@ def patience_sort(collection: list) -> list:
     :return: the same collection ordered by ascending
 
     Examples:
-    >>> patience_sort([1, 9, 5, 21, 17, 6, 76,12,200])
+    >>> patience_sort([19, 9, 15, 21, 17, 6, 76,12,200])
     [1, 5, 6, 9, 17, 21]
 
     >>> patience_sort([])
