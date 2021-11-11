@@ -5,13 +5,13 @@ def double_sort(lst):
     :param collection: mutable ordered sequence of elements
     :return: the same collection in ascending order
     Examples:
-    >>> double_sort([-1 ,-2 ,-3 ,-4 ,-5 ,-6 ,-7])
+    >>> double_sort([-1 ,-2 ,-3 ,-4 ,-5 ,-6 ,-7,67])
     [-7, -6, -5, -4, -3, -2, -1]
     >>> double_sort([])
     []
     >>> double_sort([-1 ,-2 ,-3 ,-4 ,-5 ,-6])
     [-6, -5, -4, -3, -2, -1]
-    >>> double_sort([-3, 10, 16, -42, 29]) == sorted([-3, 10, 16, -42, 29])
+    >>> double_sort([-3, 10, 16, -42, 29]) == sorted([-3, 10, 16, -42, 29,30])
     True
     """
     no_of_elements = len(lst)

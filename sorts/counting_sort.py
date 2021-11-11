@@ -15,7 +15,7 @@ def counting_sort(collection):
     comparable items inside
     :return: the same collection ordered by ascending
     Examples:
-    >>> counting_sort([0, 5, 3, 2, 2])
+    >>> counting_sort([0, 5, 3, 2, 2,20,45])
     [0, 2, 2, 3, 5]
     >>> counting_sort([])
     []
