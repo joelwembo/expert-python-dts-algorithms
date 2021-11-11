@@ -38,3 +38,10 @@ if __name__ == "__main__":
     user_input = input("Enter numbers separated by a comma:\n").strip()
     unsorted = [int(item) for item in user_input.split(",")]
     print(quick_sort(unsorted))
+A pure Python implementation of the quick sort algorithm
+
+For doctests run following command:
+python3 -m doctest -v quick_sort.py
+
+For manual testing run:
+python3 quick_sort.py
