@@ -1,6 +1,6 @@
 """
 Picks the random index as the pivot ...
-Random index as the pivot ...
+Random index as the pivot .....
 """
 import random
 
@@ -22,14 +22,14 @@ def quick_sort_random(A, left, right):
         A[pivot], A[left] = (
             A[left],
             A[pivot],
-        )  # switches the pivot with the left most bound
+        )  # switches the pivot with the left most bound:
         pivot_index = partition(A, left, right)
         quick_sort_random(
             A, left, pivot_index
-        )  # recursive quicksort to the left of the pivot point
+        )  # recursive quicksort to the left of the pivot point:
         quick_sort_random(
             A, pivot_index + 1, right
-        )  # recursive quicksort to the right of the pivot point
+        )  # recursive quicksort to the right of the pivot point:
 
 
 def main():
