@@ -2,7 +2,7 @@
 """
 Build a simple bare-minimum quantum circuit that starts with a single
 qubit (by default, in state 0) and inverts it. Run the experiment 1000
-times and print the total count of the states finally observed.
+times and print the total count of the states finally observed...
 Qiskit Docs: https://qiskit.org/documentation/getting_started.html
 """
 
@@ -16,7 +16,7 @@ def single_qubit_measure(qubits: int, classical_bits: int) -> q.result.counts.Co
     >>> single_qubit_measure(4, 4)
     {'0011': 1000}
     """
-    # Use Aer's qasm_simulator
+    # Use Aer's qasm_simulator .  .
     simulator = q.Aer.get_backend("qasm_simulator")
 
     # Create a Quantum Circuit acting on the q register
