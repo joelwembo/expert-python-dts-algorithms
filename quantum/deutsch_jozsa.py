@@ -48,7 +48,7 @@ def dj_oracle(case: str, num_qubits: int) -> q.QuantumCircuit:
         for index, bit in enumerate(b_str):
             if bit == "1":
                 oracle_qc.x(index)
-        # Do the controlled-NOT gates for each qubit, using the output qubit
+        # Do the controlled-NOT gates for each qubit, using the output qubit.
         # as the target:
         for index in range(num_qubits):
             oracle_qc.cx(index, num_qubits)
@@ -60,7 +60,7 @@ def dj_oracle(case: str, num_qubits: int) -> q.QuantumCircuit:
     # Case in which oracle is constant
     if case == "constant":
         # First decide what the fixed output of the oracle will be
-        # (either always 0 or always 1)
+        # (either always 0 or always 1).
         output = np.random.randint(2)
         if output == 1:
             oracle_qc.x(num_qubits)
@@ -77,10 +77,10 @@ def dj_algorithm(oracle: q.QuantumCircuit, num_qubits: int) -> q.QuantumCircuit:
     to the Oracle Circuit passed in arguments
     """
     dj_circuit = q.QuantumCircuit(num_qubits + 1, num_qubits)
-    # Set up the output qubit:
+    # Set up the output qubit::
     dj_circuit.x(num_qubits)
     dj_circuit.h(num_qubits)
-    # And set up the input register:
+    # And set up the input register::
     for qubit in range(num_qubits):
         dj_circuit.h(qubit)
     # Let's append the oracle gate to our circuit:
