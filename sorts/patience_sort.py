@@ -42,7 +42,7 @@ def patience_sort(collection: list) -> list:
     >>> patience_sort([])
     []
 
-    >>> patience_sort([-3, -17, -48])
+    >>> patience_sort([-3, -17, -48, 100, 200, 450])
     [-48, -17, -3]
     """
     stacks: list[Stack] = []
