@@ -8,4 +8,5 @@ git push -u origin main
 
 read
 
+echo "Completed"
 exit
