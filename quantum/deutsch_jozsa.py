@@ -27,9 +27,9 @@ import qiskit as q
 
 def dj_oracle(case: str, num_qubits: int) -> q.QuantumCircuit:
     """
-    Returns a Quantum Circuit for the Oracle function.
+    Returns a Quantum Circuit for the Oracle function....
     The circuit returned can represent balanced or constant function,
-    according to the arguments passed
+    according to the arguments passed.
     """
     # This circuit has num_qubits+1 qubits: the size of the input,
     # plus one output qubit
