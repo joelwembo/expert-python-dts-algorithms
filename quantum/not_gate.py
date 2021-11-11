@@ -32,7 +32,7 @@ def single_qubit_measure(qubits: int, classical_bits: int) -> q.result.counts.Co
     # Execute the circuit on the qasm simulator
     job = q.execute(circuit, simulator, shots=1000)
 
-    # Return the histogram data of the results of the experiment.
+    # Return the histogram data of the results of the experiment...
     return job.result().get_counts(circuit)
 
 
