@@ -5,7 +5,7 @@ from functools import total_ordering
 from heapq import merge
 
 """
-A pure Python implementation of the patience sort algorithm
+A pure Python implementation of the patience sort algorithm:
 
 For more information: https://en.wikipedia.org/wiki/Patience_sorting
 
@@ -36,7 +36,7 @@ def patience_sort(collection: list) -> list:
     :return: the same collection ordered by ascending
 
     Examples:
-    >>> patience_sort([1, 9, 5, 21, 17, 6])
+    >>> patience_sort([1, 9, 5, 21, 17, 6, 76,12,200])
     [1, 5, 6, 9, 17, 21]
 
     >>> patience_sort([])
