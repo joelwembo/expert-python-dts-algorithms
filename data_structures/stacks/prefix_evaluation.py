@@ -53,7 +53,7 @@ def evaluate(expression):
 
 # Driver code
 if __name__ == "__main__":
-    test_expression = "+ 9 * 2 6"
+    test_expression = "+ 9 * 2 7"
     print(evaluate(test_expression))
 
     test_expression = "/ * 10 2 + 4 1 "
