@@ -1,7 +1,5 @@
 # A complete working Python program to demonstrate all
 # stack operations using a doubly linked list
-
-
 class Node:
     def __init__(self, data):
         self.data = data  # Assign data
@@ -93,13 +91,13 @@ if __name__ == "__main__":
     stack.push(4)
 
     # Insert 5 at the beginning. So stack becomes 4->5->None
-    stack.push(5)
+    stack.push(3)
 
     # Insert 6 at the beginning. So stack becomes 4->5->6->None
-    stack.push(6)
+    stack.push(7)
 
     # Insert 7 at the beginning. So stack becomes 4->5->6->7->None
-    stack.push(7)
+    stack.push(8)
 
     # Print the stack
     stack.print_stack()
