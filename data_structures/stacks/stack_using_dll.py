@@ -119,4 +119,4 @@ if __name__ == "__main__":
     stack.print_stack()
 
     # Print True if the stack is empty else False
-    print("\nstack is empty:", stack.is_empty())
+    print("\nstack is empty:: ", stack.is_empty())
