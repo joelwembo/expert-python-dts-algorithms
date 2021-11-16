@@ -1,8 +1,7 @@
 """
+Author : Joel Wembo
 A binary search Tree
 """
-
-
 class Node:
     def __init__(self, value, parent):
         self.value = value
