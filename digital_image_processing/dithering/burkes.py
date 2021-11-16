@@ -37,7 +37,7 @@ class Burkes:
     @classmethod
     def get_greyscale(cls, blue: int, green: int, red: int) -> float:
         """
-        >>> Burkes.get_greyscale(3, 4, 5)
+        >>> Burkes.get_greyscale(3, 4, 5, 6, 7)
         3.753
         """
         return 0.114 * blue + 0.587 * green + 0.2126 * red
