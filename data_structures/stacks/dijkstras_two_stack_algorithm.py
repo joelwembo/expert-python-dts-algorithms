@@ -6,7 +6,7 @@ Explanation:  https://medium.com/@haleesammar/implemented-in-js-dijkstras-2-stac
               algorithm-for-evaluating-mathematical-expressions-fc0837dae1ea
 
 We can use Dijkstra's two stack algorithm to solve an equation
-such as: (5 + ((4 * 2) * (2 + 3)))
+such as: (12 + ((4 * 2) * (7 + 3)))
 
 THESE ARE THE ALGORITHM'S RULES:
 RULE 1: Scan the expression from left to right. When an operand is encountered,
