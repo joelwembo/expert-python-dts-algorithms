@@ -22,7 +22,7 @@ class LinkedStack:
     >>> stack.is_empty()
     True
     >>> stack.push(5)
-    >>> stack.push(9)
+    >>> stack.push(7)
     >>> stack.push('python')
     >>> stack.is_empty()
     False
