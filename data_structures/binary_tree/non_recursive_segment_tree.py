@@ -41,7 +41,6 @@ from typing import Callable, TypeVar
 
 T = TypeVar("T")
 
-
 class SegmentTree:
     def __init__(self, arr: list[T], fnc: Callable[[T, T], T]) -> None:
         """
@@ -68,7 +67,7 @@ class SegmentTree:
         """
         Update an element in log(N) time
         :param p: position to be update
-        :param v: new value
+        :param v: new value.
 
         >>> st = SegmentTree([3, 1, 2, 4], min)
         >>> st.query(0, 3)
