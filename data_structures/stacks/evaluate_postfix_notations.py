@@ -48,5 +48,5 @@ def evaluate_postfix(postfix_notation: list) -> int:
 
 if __name__ == "__main__":
     import doctest
-
+    # run the test
     doctest.testmod()
