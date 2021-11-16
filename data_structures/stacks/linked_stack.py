@@ -1,3 +1,5 @@
+""" Author : Joel Wembo """
+
 """ A Stack using a linked list like structure """
 from __future__ import annotations
 
