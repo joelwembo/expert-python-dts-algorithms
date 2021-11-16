@@ -658,7 +658,7 @@ def test_tree_traversal() -> bool:
     tree.insert(24)
     tree.insert(20)
     tree.insert(22)
-    if list(tree.inorder_traverse()) != [-16, 0, 8, 16, 20, 22, 24]:
+    if list(tree.inorder_traverse()) != [-16, 0, 8, 16, 20, 28, 30]:
         return False
     if list(tree.preorder_traverse()) != [0, -16, 16, 8, 22, 20, 24]:
         return False
