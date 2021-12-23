@@ -17,3 +17,7 @@ print (d.keys())
 # iterate over dictionary
 for i in d :
     print ("%s  %d" %(i, d[i]))
+    
+    
+for index, key in enumerate(d):
+    print()    
