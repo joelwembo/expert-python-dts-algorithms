@@ -1,14 +1,14 @@
-"""Implementation of GradientBoostingRegressor in sklearn using the
-   boston dataset which is very popular for regression problem to
-   predict house price.
-"""
+# """Implementation of GradientBoostingRegressor in sklearn using the
+#    boston dataset which is very popular for regression problem to
+#    predict house price.
+# """
 
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.datasets import load_boston
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error, r2_score
-from sklearn.model_selection import train_test_split
+#from sklearn.model_selection import train_test_split
 
 
 def main():
