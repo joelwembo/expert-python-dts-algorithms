@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from .number_theory.prime_numbers import next_prime
 
-
+# Start here
 class HashTable:
     """
     Basic Hash Table example with open addressing and linear probing
@@ -88,4 +88,4 @@ class HashTable:
             else:
                 self.rehashing()
                 self.insert_data(data)
-                self.insert_data(data)
+              
