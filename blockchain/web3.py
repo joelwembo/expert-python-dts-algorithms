@@ -20,3 +20,9 @@ w3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/<infura-project-id>'))
 from web3.auto.infura import w3
 
 print (w3.eth.block_number)
+
+""" >>> from web3.beacon import Beacon
+>>> beacon = Beacon("http://localhost:5051") """
+
+
+
