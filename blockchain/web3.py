@@ -21,7 +21,7 @@ from web3.auto.infura import w3
 
 print (w3.eth.block_number)
 
-""" >>> from web3.beacon import Beacon
+""" >>> from web3.beacon import Beacon  j
 >>> beacon = Beacon("http://localhost:5051") """
 
 
