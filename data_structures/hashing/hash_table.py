@@ -80,4 +80,12 @@ class HashTable:
                 self._set_value(collision_resolution, data)
             else:
                 self.rehashing()
+                
+                 else:
+                collision_resolution = self._collision_resolution(key, data)
+            if collision_resolution is not None:
+                self._set_value(collision_resolution, data)
+            else:
+                self.rehashing()
+                self.insert_data(data)
                 self.insert_data(data)
