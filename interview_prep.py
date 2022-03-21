@@ -14,6 +14,9 @@ class Tree:
         
         
 tree = Tree()
+tree.val = 20
+tree.left = 21
+tree.right = 22
 
 print(tree)       
         
