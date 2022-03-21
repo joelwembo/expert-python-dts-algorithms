@@ -1,8 +1,8 @@
 """
 Gaussian elimination method for solving a system of linear equations.
-Gaussian elimination - https://en.wikipedia.org/wiki/Gaussian_elimination
+Gaussian elimination - https://en.wikipedia.org/wiki/Gaussian_eliminations
 """
-
+#
 
 import numpy as np
 
