@@ -46,4 +46,4 @@ tree.right = Tree(22)
 tree.insert(19)    
         
 print(tree.left.right)
-print(tree.left.right.val)        
+print(tree.left.right.val)
