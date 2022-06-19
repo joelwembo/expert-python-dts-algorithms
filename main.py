@@ -4,18 +4,15 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 import asyncio
-import datetime
 
-async def display_date():
-    loop = asyncio.get_running_loop()
-    end_time = loop.time() + 5.0
-    while True:
-        print(datetime.datetime.now())
-        if (loop.time() + 1.0 ) >= end_time:
-            break
-        await asyncio.sleep(1)
+class T:
+    def __hash__(self):
+        return hash(0)
+    def hash(self):
+        return -1
+    
+obj = T()
 
-asyncio.run(display_date())
-
-
+print(f'{obj.hash() = }')  
+print(f'{hash(obj) = }')   
 
